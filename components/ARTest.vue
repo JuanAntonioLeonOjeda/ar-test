@@ -44,7 +44,7 @@ import { useHead } from '#app'
 useHead({
   script: [
     {
-      src: 'https://cdn.jsdelivr.net/npm/mind-ar-js@1.1.4/dist/mindar-image.prod.js',
+      src: 'https://unpkg.com/mind-ar-js@1.1.4/dist/mindar-image.prod.js',
       tagPosition: 'body-close'
     },
     {
