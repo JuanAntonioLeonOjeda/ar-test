@@ -16,7 +16,7 @@
             <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
             <a-entity mindar-image-target="targetIndex: 0">
-              <a-image src="#fondo" position="0 0 -0.1" width="1.5" opacity="0.8"></a-image>
+              <a-image src="#fondo" position="0 0 -0.1" width="1.5" opacity="0.5" rotation="0 0 0"></a-image>
               <a-image src="#personaje" position="0.2 0.3 0.05" width="0.7"></a-image>
               <a-plane position="0 -0.4 0.1" width="1.4" height="0.4" color="#ffffff" opacity="0.9">
                 <a-text value="Año 1593\nAquí los isleños repelieron a Francis Drake..." color="#000000" align="center"
@@ -44,7 +44,7 @@ import { useHead } from '#app'
 useHead({
   script: [
     {
-      src: 'https://cdn.jsdelivr.net/npm/mind-ar@1.1.4/dist/mindar-image.prod.js',
+      src: 'https://cdn.jsdelivr.net/npm/mind-ar-js@1.1.4/dist/mindar-image.prod.js',
       tagPosition: 'body-close'
     },
     {
@@ -55,7 +55,7 @@ useHead({
   link: [
     {
       rel: 'stylesheet',
-      href: 'https://cdn.jsdelivr.net/npm/mind-ar@1.1.4/dist/mindar-image.prod.css'
+      href: 'https://cdn.jsdelivr.net/npm/mind-ar-js@1.1.4/dist/mindar-image.prod.css'
     }
   ]
 })
