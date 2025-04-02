@@ -44,11 +44,15 @@ import { useHead } from '#app'
 useHead({
   script: [
     {
-      src: 'https://unpkg.com/mind-ar-js@1.1.4/dist/mindar-image.prod.js',
+      src: 'https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js',
       tagPosition: 'body-close'
     },
     {
       src: 'https://aframe.io/releases/1.2.0/aframe.min.js',
+      tagPosition: 'body-close'
+    },
+    {
+      src: 'https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image-aframe.prod.js',
       tagPosition: 'body-close'
     }
   ],
