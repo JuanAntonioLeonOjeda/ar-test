@@ -55,7 +55,7 @@ useHead({
   link: [
     {
       rel: 'stylesheet',
-      href: 'https://cdn.jsdelivr.net/npm/mind-ar-js@1.1.4/dist/mindar-image.prod.css'
+      href: 'https://unpkg.com/mind-ar-js@1.1.4/dist/mindar-image.prod.css'
     }
   ]
 })
